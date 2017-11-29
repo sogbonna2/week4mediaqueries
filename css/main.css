@@ -1,0 +1,46 @@
+body{
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+}
+
+.black{
+	background-color: black;
+}
+
+.grey{
+	background-color: grey;
+}
+
+.aqua{
+	background-color: aqua;
+}
+
+.red{
+	background-color: red;
+}
+
+@media (max-width:600px){
+	div.box.grey {
+		display: none;
+	}
+	div.box.aqua{
+		display: none;
+	}
+}
+
+@media (min-width:1000px){
+	div.box{
+		width:100%;
+	}
+
+
+
+
+
+
+
